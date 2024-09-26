@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.taskmanagerplus</groupId>
-  <artifactId>taskmanagerplus-bdd-cucumber-selenium</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+	<groupId>com.taskmanagerplus</groupId>
+	<artifactId>taskmanagerplus-bdd-cucumber-selenium</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-  <name>taskmanagerplus-bdd-cucumber-selenium</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+	<name>taskmanagerplus-bdd-cucumber-selenium</name>
+	<!-- FIXME change it to the project's website -->
+	<url>http://www.example.com</url>
 
-  <properties>
+	<properties>
 		<java.version>21</java.version>
 		<junit.jupiter.version>5.11.0-M2</junit.jupiter.version>
 	</properties>
@@ -31,13 +32,13 @@
 			<version>7.13.0</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<!--
+		https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
 			<version>7.13.0</version>
 		</dependency>
-
 
 
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
@@ -48,12 +49,13 @@
 		</dependency>
 
 
-
-		<!-- If the dependencies [tech.grasshopper, com.aventstack] are commented 
+		<!-- If the dependencies [tech.grasshopper, com.aventstack] are
+		commented 
 			out it may be because it's not working when I manually run it with 'Run as 
 			=> TestNG Test,' by right-clicking on the TestNGTestRunner class. 2023-09-08 -->
 
-		<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+		<!--
+		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
@@ -69,13 +71,10 @@
 		</dependency>
 
 
-
-
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.11.0</version>
+			<version>4.25.0</version>
 		</dependency>
 
 

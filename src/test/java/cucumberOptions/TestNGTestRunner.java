@@ -15,10 +15,8 @@ import io.cucumber.testng.CucumberOptions;
 	features="src/test/java/features",
 	glue ="stepDefinitions",
 	monochrome=true, 
-	tags ="@LoginTest",
-	plugin= {"html:target/cucumber.html", "json:target/cucumber.json",
-	"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-	"rerun:target/failed_scenarios.txt"})
+	tags ="@LoginTest"
+	)
 
 public class TestNGTestRunner extends AbstractTestNGCucumberTests{
 
