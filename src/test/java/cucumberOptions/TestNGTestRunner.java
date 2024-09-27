@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
  */
 
 @CucumberOptions(
-	features="src/test/java/features",
+	features="src/test/java/features/login.feature",
 	glue ="stepDefinitions",
 	monochrome=true, 
 	tags ="@LoginTest"

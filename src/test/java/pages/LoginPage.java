@@ -25,7 +25,7 @@ public class LoginPage {
 
     @FindBy(id = "login_page_title_label")
     WebElement pageTitle;
-
+    
     /**
      * Constructor to initialize the WebDriver and page elements.
      *

@@ -28,51 +28,58 @@
 			<scope>test</scope>
 		</dependency>
 
-
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>7.19.0</version>
+			<version>7.13.0</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
-			<version>7.19.0</version>
+			<version>7.13.0</version>
 		</dependency>
 
+		<!--
+		https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
-			<version>7.19.0</version>
+			<version>7.13.0</version>
 		</dependency>
 
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>2.17.0</version>
+			<version>2.11.0</version>
 		</dependency>
 
-		<!-- 
-			If the dependencies [tech.grasshopper, com.aventstack] are
-			commented out it may be because it's not working when I manually run it with 'Run as 
-			=> TestNG Test,' by right-clicking on the TestNGTestRunner class. 2024-09-27 
-		-->
-<!--
+
+		<!-- If the dependencies [tech.grasshopper, com.aventstack] are
+		commented 
+			out it may be because it's not working when I manually run it with 'Run as 
+			=> TestNG Test,' by right-clicking on the TestNGTestRunner class. 2023-09-08 -->
+
+		<!--
+		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>1.14.0</version>
 		</dependency>
-		
-		
+
+
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>5.1.2</version>
+			<version>5.1.0</version>
 		</dependency>
--->
+
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -80,6 +87,8 @@
 			<version>4.25.0</version>
 		</dependency>
 
+
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
