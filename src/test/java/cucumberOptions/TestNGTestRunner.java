@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 	features="src/test/java/features/login.feature",
 	glue ="stepDefinitions",
 	monochrome=true, 
-	tags ="@LoginTest"
+	tags ="@LoginTest and @high-priority"
 	)
 
 public class TestNGTestRunner extends AbstractTestNGCucumberTests{

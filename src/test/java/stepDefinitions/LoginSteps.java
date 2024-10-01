@@ -34,7 +34,7 @@ public class LoginSteps {
         // Open the login page
         driver.get("http://localhost:4200/#/login"); // Adjust the URL as needed
         
-        // Initialize the LoginPage object
+        // Initialize the LoginPage and HomeApplicationPage object
         loginPage = new LoginPage(driver);
         homeApplicationPage = new HomeApplicationPage(driver);
     }
