@@ -32,7 +32,6 @@ This feature ensures that users can successfully log in to the application using
 - **features**: Holds the `.feature` files that define the BDD scenarios in Gherkin language.
 - **pages**: Contains Page Object classes representing different pages of the application.
 - **stepDefinitions**: Includes the Java classes that implement the steps defined in the `.feature` files.
-- **utils**: Provides utility classes and configurations required for the tests.
 - **drivers**: Directory for storing WebDriver executables like `chromedriver.exe`.
 
 ## How to Run the Tests
@@ -55,7 +54,3 @@ This feature ensures that users can successfully log in to the application using
 - Make sure to update the `chromedriver.exe` if your Chrome browser version is updated to avoid any compatibility issues.
 - You can find the ChromeDriver version from the [official ChromeDriver website](https://chromedriver.chromium.org/downloads).
 
----
-
-### Justificativa
-Ao colocar o tópico "What is BDD?" logo após a introdução, você fornece contexto sobre o BDD antes de entrar nos detalhes do projeto. Isso ajuda quem estiver lendo o `README.md` a entender o porquê do uso de BDD e como ele se relaciona com o restante do projeto.
